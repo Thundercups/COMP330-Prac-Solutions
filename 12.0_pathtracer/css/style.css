@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#_canvas-rasterization_ {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#_canvas-pathtracing_ {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

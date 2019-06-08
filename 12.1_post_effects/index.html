@@ -1,0 +1,33 @@
+<html charset="utf-8">
+    <head>
+        <title>Fancy post effects!</title>
+
+        <!-- Stuff to make this work nice in modern browsers and mobile browsers -->
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- Link to the CSS so we can style the HTML -->
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <!-- List your script files here -->
+        <script src="js/debugging.js"></script>
+        <script src="js/thirdparty/gl-matrix-min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/util.js"></script>
+    </head>
+    <body>
+        <!-- The  canvas -->
+        <canvas id="_canvas_"></canvas>
+
+        <!-- Textures -->
+        <div>
+            <img id="_bricks_" src="stonebrick.png"/>
+            <img id="_rust_" src="rust.png"/>
+            <img id="_face_" src="face.png"/>
+        </div>
+
+        <!-- Start your JavaScript with the last element of your HTML body -->
+        <script type="text/javascript">start();</script>
+    </body>
+</html>

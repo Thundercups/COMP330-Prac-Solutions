@@ -1,0 +1,31 @@
+<html charset="utf-8">
+    <head>
+        <title>Pathtracing</title>
+
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" type="image/png" href="icon.png"/>
+
+        <script src="js/debugging.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/math/ray3.js"></script>
+        <script src="js/math/rayHit.js"></script>
+        <script src="js/math/sphere.js"></script>
+        <script src="js/math/vector3.js"></script>
+        <script src="js/pathtracing.js"></script>
+        <script src="js/rasterization.js"></script>
+        <script src="js/shaders/diffuse.js"></script>
+        <script src="js/shaders/unlit.js"></script>
+        <script src="js/thirdParty/gl-matrix-min.js"></script>
+        <script src="js/utilities.js"></script>
+    </head>
+    <body>
+        <canvas id="_canvas-rasterization_"></canvas>
+        <canvas id="_canvas-pathtracing_"></canvas>
+        <!-- Start your JavaScript with the last element of your HTML body -->
+        <script type="text/javascript">start();</script>
+    </body>
+</html>
